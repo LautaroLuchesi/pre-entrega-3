@@ -1,5 +1,95 @@
-h1 {
-  color: greenyellow;
+body {
+  font-size: 20px;
+  font-family: $title-primary;
+}
+
+header {
+  background-color: darkslategrey;
+}
+
+.titulo {
+  color: blanchedalmond;
+  text-align: center;
+  text-decoration: underline;
+  margin: 0px;
+}
+
+main {
+  background-color: grey;
+}
+
+.logos {
+  width: 220px;
+  display: inline-block;
+  margin: 0px 140px 0px 140px;
+}
+
+.logos img {
+  width: 100%;
+}
+
+.logos-cont {
+  text-align: center;
+}
+
+.descripcion {
+  color: black;
+  margin: 20px;
+}
+
+.historia {
+  color: black;
+  margin: 20px 0px 0px 0px;
+}
+
+p {
+  color: blanchedalmond;
+  text-decoration: underline;
+}
+
+.juegos {
+  width: 300px;
+  display: inline-block;
+  margin: 40px;
+}
+
+.juegos img {
+  width: 100%;
+  margin: 0px 10px 0px 80px;
+}
+
+.boton {
+  color: burlywood;
+  background-color: darkslategrey;
+  margin: 10px 0px 0px 130px;
+}
+
+.boton:hover {
+  color: red;
+}
+
+footer {
+  background-color: lightslategrey;
+  justify-content: center;
+}
+
+.redes a {
+  color: black;
+}
+
+.redes a:hover {
+  color: red;
+}
+
+.redes img {
+  width: 50px;
+}
+
+.derechos {
+  text-align: end;
+  color: black;
+  margin: 0px 10px;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */

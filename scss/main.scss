@@ -1,4 +1,8 @@
-h1{
-    color: greenyellow;
-}
+//reset
+@import './config/variables.scss';
+@import './config/reset';
+//layout
+@import './layout/cabezera';
+@import './layout/principal';
+@import './layout/pie';
 
