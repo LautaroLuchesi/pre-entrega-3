@@ -2,13 +2,13 @@ body{
     font-size: 20px;
 }
 header{
-    background-color:darkslategrey;
+    background-color:limegreen;
 }
 main{
-    background-color:grey;
+    background-color:slategrey;
 }
 footer{
-    background-color:lightslategrey;
+    background-color:darkslategrey;
     justify-content:center;
 }
 .derechos{
@@ -41,6 +41,10 @@ footer{
 .historia{
     color: black;
     margin:20px 0px 0px 0px;
+}
+.carousel-item img{
+    width: 100%;
+    width: 100px;
 }
 p{
     color: blanchedalmond;
