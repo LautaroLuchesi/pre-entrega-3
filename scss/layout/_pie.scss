@@ -1,19 +1,19 @@
 footer{
-    background-color:lightslategrey;
+    @include fondo-pie;
     justify-content:center;
 }
 .redes a{
-    color: black;
+    @include color-negro;
 }
 .redes a:hover{
-    color: red;
+    @include hover-rojo;
 }
 .redes img{
     width: 50px;
 }
 .derechos{
     text-align: end;
-    color: black;
+    @include color-negro;
     margin: 0px 10px;
     font-size: 20px;
 }

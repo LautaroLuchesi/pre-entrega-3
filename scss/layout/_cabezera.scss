@@ -1,9 +1,7 @@
 header{
-    background-color:darkslategrey;
+    @include fondo-cabezera;
 }
 .titulo{
-    color: blanchedalmond;
-    text-align: center;
-    text-decoration:underline;
-    margin: 0px;
+    @include color-parrafo;
+    @include alineacion-titulo;
 }

@@ -1,10 +1,10 @@
 body {
   font-size: 20px;
-  font-family: $title-primary;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 header {
-  background-color: darkslategrey;
+  background-color: limegreen;
 }
 
 .titulo {
@@ -15,7 +15,7 @@ header {
 }
 
 main {
-  background-color: grey;
+  background-color: slategrey;
 }
 
 .logos {
@@ -59,8 +59,8 @@ p {
 }
 
 .boton {
-  color: burlywood;
-  background-color: darkslategrey;
+  background-color: dimgrey;
+  color: blanchedalmond;
   margin: 10px 0px 0px 130px;
 }
 
@@ -69,7 +69,7 @@ p {
 }
 
 footer {
-  background-color: lightslategrey;
+  background-color: darkslategrey;
   justify-content: center;
 }
 

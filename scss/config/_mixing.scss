@@ -1,0 +1,26 @@
+@mixin alineacion-titulo{ 
+    text-align: center;
+    text-decoration:underline;
+    margin: 0px;
+}
+@mixin color-negro{
+    color: black;
+}
+@mixin fondo-cabezera{
+    background-color:limegreen;
+}
+@mixin fondo-principal{
+    background-color:slategrey;
+}
+@mixin fondo-pie{
+    background-color:darkslategrey;
+}
+@mixin hover-rojo{
+    color: red;
+}
+@mixin color-parrafo{
+    color: blanchedalmond;
+}
+@mixin color-fondo-boton{
+    background-color: dimgrey;
+}

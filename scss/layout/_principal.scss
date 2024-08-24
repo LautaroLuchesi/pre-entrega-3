@@ -1,10 +1,10 @@
 main{
-    background-color:grey;
+    @include fondo-principal;
 }
 .logos{
     width: 220px;
-     display: inline-block;
-     margin: 0px 140px 0px 140px;
+    display: inline-block;
+    margin: 0px 140px 0px 140px;
 }
 .logos img{
      width: 100%;
@@ -13,15 +13,15 @@ main{
     text-align: center;
 }
 .descripcion{
-    color: black;
+    @include color-negro;
     margin: 20px;
 }
 .historia{
-    color: black;
+    @include color-negro;
     margin:20px 0px 0px 0px;
 }
 p{
-    color: blanchedalmond;
+    @include color-parrafo;
     text-decoration: underline;
 }
 .juegos{
@@ -34,10 +34,10 @@ p{
     margin: 0px 10px 0px 80px;
 }
 .boton{
-    color: burlywood;
-    background-color:darkslategrey;
+    @include color-fondo-boton;
+    @include color-parrafo;
     margin: 10px 0px 0px 130px;
 }
 .boton:hover{
-    color: red;
+    @include hover-rojo;
 }
